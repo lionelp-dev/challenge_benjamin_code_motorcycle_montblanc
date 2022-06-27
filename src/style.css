@@ -104,13 +104,16 @@ html {
 }
 
 .header__nav {
+  width: 100%;
+  padding-right: 2.59vw;
+  padding-left: 5.59vw;
+}
+
+.header__nav-list {
   display: flex;
   align-items: center;
   list-style: none;
   justify-content: space-between;
-  width: 100%;
-  padding-right: 2.59vw;
-  padding-left: 5.59vw;
 }
 
 .header__nav-item {
